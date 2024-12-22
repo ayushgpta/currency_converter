@@ -1,6 +1,6 @@
 import { useState,useEffect } from "react";
 
-function usecurrencyinfo(){
+function usecurrencyinfo(currency){
     const [data,setdata]=useState({});
   
     useEffect(()=>{
